@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="ancPane2" prefHeight="440.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainView2">
+   <children>
+      <ListView fx:id="listView" layoutX="93.0" layoutY="95.0" prefHeight="279.0" prefWidth="469.0" style="-fx-background-color: #C2F8CBC2F8CB;" />
+      <Button fx:id="searchButt" layoutX="490.0" layoutY="39.0" mnemonicParsing="false" onAction="#onSubmitClick" prefHeight="32.0" prefWidth="94.0" text="Search" />
+      <Label fx:id="label" layoutX="14.0" layoutY="41.0" prefHeight="28.0" prefWidth="56.0" text="Title :">
+         <font>
+            <Font name="Lucida Grande" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtField" layoutX="93.0" layoutY="42.0" onKeyReleased="#textFieldPressed" prefHeight="26.0" prefWidth="370.0" promptText="Movie, Tv-Show" />
+      <Button fx:id="searchButt1" layoutX="490.0" layoutY="390.0" mnemonicParsing="false" onAction="#onSubmitClick2" prefHeight="32.0" prefWidth="94.0" text="Download">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
